@@ -24,10 +24,6 @@
                 padding: 3%;
             }
 
-            img {
-                max-width: 100%;
-            }
-
             header {
                 width: 98%;
             }
@@ -41,36 +37,58 @@
             #wrapper {
                 background-color: #f8f9fa;
             }
-
-            #social {
-                float: right;
-                margin: 3% 2% 4% 3%;
-                list-style-type: none;
-            }
-
+            
             #main-image {
                 width: 100%;
                 height: auto;
             }
 
-            #social > li {
+            #social {
+                float: right;
+                margin: 3% 2% 4% 3%;
+                list-style-type: none;
+                border: 1px solid red;
+                /* display: inline; */
+            }
+
+            #social > li  {
                 display: inline;
-            }           
+            }
+            
+            #fa-facebook-square {
+                width: 2em;
+                color: #4267b2;
+            }
+
+            a:hover > img > #fa-facebook-square {
+                color: red;
+            }
 
             .fa-facebook-square {
-                color: #4267b2;
             }
 
             .fa-instagram-square {
                 color: #8a3ab9;
             }
 
+            #fa-instagram-square {
+                width: 2em;
+            }
+
             .fa-twitter-square {
                 color: #00acee;
             }
 
+            #fa-twitter-square {
+                width: 2em;
+            }
+
             .fa-youtube-square {
                 color: #c4302b;
+            }
+
+            #fa-youtube-square {
+                width: 2em;
             }
 
             h1, p {
@@ -104,6 +122,14 @@
                 font-size: 14px;
                 color: #7c514b;
             }
+
+            #icon-attribute {
+                text-align: center;
+                padding-bottom: 3%;
+                line-height: 12px;
+                font-size: 12px;
+                color: #7c514b;
+            }
         </style>
     </head>
     <body>
@@ -115,19 +141,49 @@
                 <div>
                     <ul id="social">
                         <li>
-                            <a href="#" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <!-- <a href="#" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a> -->
+                            <a href="#" target="_blank">
+                                <img 
+                                    src="./img/facebook.png" 
+                                    alt="Facebook Logo Icon" 
+                                    id="fa-facebook-square"
+                                />
+                                <!-- <img 
+                                    src="./img/fa-facebook-square.svg" 
+                                    alt="Facebook Logo Icon" 
+                                    id="fa-facebook-square"
+                                /> -->
+                            </a>
                         </li>
 
                         <li>
-                            <a href="#" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+                            <a href="#" target="_blank">
+                                <img 
+                                    src="./img/fa-instagram-square.svg" 
+                                    alt="Instagram Logo Icon" 
+                                    id="fa-instagram-square"
+                                />
+                            </a>
                         </li>
 
                         <li>
-                            <a href="#" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+                            <a href="#" target="_blank">
+                                <img 
+                                    src="./img/fa-twitter-square.svg" 
+                                    alt="Twitter Logo Icon"
+                                    id="fa-twitter-square"
+                                />
+                            </a>
                         </li>
 
                         <li>
-                            <a href="#" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a>
+                            <a href="#" target="_blank">
+                                <img 
+                                    src="./img/fa-youtube-square.svg" 
+                                    alt="YouTube Logo Icon" 
+                                    id="fa-youtube-square"
+                                />
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -152,6 +208,10 @@
                         New York, NY 10011 <br />
                         info@passioninc.com
                     </p>
+
+                    <div id="icon-attribute">
+                        Icons made by <a href="https://icon54.com/" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a>
+                    </div>
                 </footer>
             </div>
         </div>
