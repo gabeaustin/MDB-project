@@ -6,19 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Got Passion?</title>
         <script src="https://kit.fontawesome.com/2e15c7c035.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="/path/to/css/stylesheet.css" type="text/css" charset="utf-8" /> 
         <style>
-            /* Google font - doesn't work for Safari */
             @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
-
-            /* Font Squirrel - works in Safari */
-            @font-face {
-                font-family: 'ralewayextralight_italic';
-                src: url('fonts/raleway/raleway-extralightitalic-webfont.woff2') format('woff2'),
-                url('fonts/raleway/raleway-extralightitalic-webfont.woff') format('woff');
-                font-weight: normal;
-                font-style: normal;
-            }
             
             * {
                 margin: 0;
@@ -28,7 +17,6 @@
 
             body {
                 font-family: 'Raleway', sans-serif;
-                font-family: 'ralewayextralight_italic'; /* for Safari */
                 background-color: #ccc;
                 font-size: 19px;
                 max-width: 800px; /* good size for email */
