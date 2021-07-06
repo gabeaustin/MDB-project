@@ -9,7 +9,7 @@ This is an HTML email that was created to display some of my skills.
 **Cell Phone Image** <br />
 ![Mobile Image](./img/cell-view.jpg)
 
-**Tablet Image** <br />
+**Tablet &amp; Desktop Image** <br />
 ![Tablet Image](./img/tablet-view.jpg)
 
 <br />
