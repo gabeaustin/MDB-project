@@ -110,7 +110,7 @@
         <div id="wrapper">
             <header>
                 <div id="logo">
-                    <img src="img/logo.png" alt="Company Logo">
+                    <img src="https://gabeaustin.github.io/MDB-project/img/logo.png" alt="Company Logo">
                 </div>
                 <div>
                     <ul id="social">
@@ -133,7 +133,7 @@
                 </div>
             </header>
             <div id="banner">
-                <img src="img/passion_img.jpeg" alt="Passion Image" id="main-image">
+                <img src="https://gabeaustin.github.io/MDB-project/img/passion_img.jpeg" alt="Passion Image" id="main-image">
             </div>
             <div class="one-col">
                 <h1>Where Will Your Passion Lead You?</h1>
