@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="image" property="og:image" content="https://www.myboygabe.com/projects/mdb-project/img/tablet-view.jpg">
         <title>Got Passion?</title>
         <script src="https://kit.fontawesome.com/2e15c7c035.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -192,14 +193,14 @@
         <div id="wrapper">
             <header>
                 <div id="logo">
-                    <img src="https://gabeaustin.github.io/MDB-project/img/logo.png" alt="Company Logo">
+                    <img src="https://www.myboygabe.com/projects/mdb-project/img/logo.png" alt="Company Logo">
                 </div>
                 <div>
                     <ul id="social">
                         <li>
                             <a href="#" target="_blank">
                                 <img 
-                                    src="https://gabeaustin.github.io/MDB-project/img/facebook.png" 
+                                    src="https://www.myboygabe.com/projects/mdb-project/img/facebook.png" 
                                     alt="Facebook Logo Icon" 
                                     id="fa-facebook-square"
                                     class="social-img"
@@ -210,7 +211,7 @@
                         <li>
                             <a href="#" target="_blank">
                                 <img 
-                                    src="https://gabeaustin.github.io/MDB-project/img/instagram.png" 
+                                    src="https://www.myboygabe.com/projects/mdb-project/img/instagram.png" 
                                     alt="Instagram Logo Icon" 
                                     id="fa-instagram-square"
                                     class="social-img"
@@ -221,7 +222,7 @@
                         <li>
                             <a href="#" target="_blank">
                                 <img 
-                                    src="https://gabeaustin.github.io/MDB-project/img/twitter.png" 
+                                    src="https://www.myboygabe.com/projects/mdb-project/img/twitter.png" 
                                     alt="Twitter Logo Icon"
                                     id="fa-twitter-square"
                                     class="social-img"
@@ -232,7 +233,7 @@
                         <li>
                             <a href="#" target="_blank">
                                 <img 
-                                    src="https://gabeaustin.github.io/MDB-project/img/youtube.png" 
+                                    src="https://www.myboygabe.com/projects/mdb-project/img/youtube.png" 
                                     alt="YouTube Logo Icon" 
                                     id="fa-youtube-square"
                                     class="social-img"
@@ -243,7 +244,7 @@
                 </div>
             </header>
             <div id="banner">
-                <img src="https://gabeaustin.github.io/MDB-project/img/passion_img.jpeg" alt="Passion Image" id="main-image">
+                <img src="https://www.myboygabe.com/projects/mdb-project/img/passion_img.jpeg" alt="Passion Image" id="main-image">
             </div>
             <div class="one-col">
                 <h1 id="main-heading">Where Will Your Passion Lead You?</h1>
