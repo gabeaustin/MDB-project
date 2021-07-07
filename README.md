@@ -1,7 +1,8 @@
 # HTML Email Project
 ## View the **[Development Site](https://gabeaustin.github.io/MDB-project)**
+## View the **[Live Site](https://www.myboygabe.com/projects/mdb-project/)**
 
-This is an HTML email that was created to display some of my skills.
+This is an HTML email template designed for email marketing campaigns.
 
 <br />
 

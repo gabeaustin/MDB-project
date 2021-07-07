@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="image" property="og:image" content="https://www.myboygabe.com/projects/mdb-project/img/tablet-view.jpg">
+        <meta name="description" property="og:description" content="This is an HTML email template designed for email marketing campaigns.">
         <meta name="author" content="Gabriel Austin">
         <title>Got Passion?</title>
         <script src="https://kit.fontawesome.com/2e15c7c035.js" crossorigin="anonymous"></script>
