@@ -28,8 +28,15 @@
                 width: 98%;
             }
 
+            header > #logo > img {
+                max-width: 8rem;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
             #logo {
-                max-width: 120px;
                 margin: 3% 0 3% 3%;
                 float: left;
             }
@@ -47,8 +54,6 @@
                 float: right;
                 margin: 3% 2% 4% 3%;
                 list-style-type: none;
-                border: 1px solid red;
-                /* display: inline; */
             }
 
             #social > li  {
@@ -56,43 +61,28 @@
             }
             
             #fa-facebook-square {
-                width: 2em;
-                color: #4267b2;
-            }
-
-            a:hover > img > #fa-facebook-square {
-                color: red;
-            }
-
-            .fa-facebook-square {
-            }
-
-            .fa-instagram-square {
-                color: #8a3ab9;
+                width: 1.7rem;
             }
 
             #fa-instagram-square {
-                width: 2em;
-            }
-
-            .fa-twitter-square {
-                color: #00acee;
+                width: 1.7rem;
             }
 
             #fa-twitter-square {
-                width: 2em;
-            }
-
-            .fa-youtube-square {
-                color: #c4302b;
+                width: 1.7rem;
             }
 
             #fa-youtube-square {
-                width: 2em;
+                width: 1.7rem;
             }
 
             h1, p {
                 margin: 3%;
+            }
+
+            #main-heading {
+                text-align: center;
+                padding-bottom: 1rem;
             }
 
             .btn {
@@ -130,6 +120,29 @@
                 font-size: 12px;
                 color: #7c514b;
             }
+
+            /* if the device width is less than or equal to 320px, then do... */
+            @media only screen and (max-width: 320px) {
+                header > #logo > img {
+                    max-width: 6em;
+                }
+
+                #fa-facebook-square {
+                    width: 1.3em;
+                }
+
+                #fa-instagram-square {
+                    width: 1.3em;
+                }
+
+                #fa-twitter-square {
+                    width: 1.3em;
+                }
+
+                #fa-youtube-square {
+                    width: 1.3em;
+                }
+            }
         </style>
     </head>
     <body>
@@ -146,6 +159,7 @@
                                     src="./img/facebook.png" 
                                     alt="Facebook Logo Icon" 
                                     id="fa-facebook-square"
+                                    class="social-img"
                                 />
                             </a>
                         </li>
@@ -156,6 +170,7 @@
                                     src="./img/instagram.png" 
                                     alt="Instagram Logo Icon" 
                                     id="fa-instagram-square"
+                                    class="social-img"
                                 />
                             </a>
                         </li>
@@ -166,6 +181,7 @@
                                     src="./img/twitter.png" 
                                     alt="Twitter Logo Icon"
                                     id="fa-twitter-square"
+                                    class="social-img"
                                 />
                             </a>
                         </li>
@@ -176,6 +192,7 @@
                                     src="./img/youtube.png" 
                                     alt="YouTube Logo Icon" 
                                     id="fa-youtube-square"
+                                    class="social-img"
                                 />
                             </a>
                         </li>
@@ -186,7 +203,7 @@
                 <img src="https://gabeaustin.github.io/MDB-project/img/passion_img.jpeg" alt="Passion Image" id="main-image">
             </div>
             <div class="one-col">
-                <h1>Where Will Your Passion Lead You?</h1>
+                <h1 id="main-heading">Where Will Your Passion Lead You?</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium vero sed aliquid quae accusamus. Ab totam pariatur perferendis unde similique ipsam quae debitis repellendus, a tempore dolor aspernatur vel?</p>
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque perspiciatis accusantium aliquam nobis quisquam similique reprehenderit soluta, cupiditate earum provident a at nisi enim beatae nostrum asperiores culpa. Saepe quasi aspernatur animi eaque aut possimus, velit labore fugit voluptatum molestiae!</p>
